@@ -1,6 +1,6 @@
 // Função para gerar um número aleatório entre 1 e 10
 let listaNumerosSorteados = [] ;
-let limiteDeNumeros= 50
+let limiteDeNumeros= 30
 function gerarNumeroAleatorio() {
   let numeroEscolhido = parseInt(Math.random() * limiteDeNumeros + 1);
   if(listaNumerosSorteados.length== limiteDeNumeros) {
@@ -25,7 +25,7 @@ function exibirTextoNaTela(tag, texto) {
 }
 function mensagemInicial () {
 exibirTextoNaTela('h1', ' Jogo Número Secreto');
-exibirTextoNaTela('p', 'Escolha um número de 1 a 50')
+exibirTextoNaTela('p', 'Escolha um número de 1 a 30')
 }
 mensagemInicial()
 
